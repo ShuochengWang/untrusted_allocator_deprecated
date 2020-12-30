@@ -13,11 +13,11 @@ sgx_tstd = { git = "https://github.com/apache/teaclave-sgx-sdk.git", features = 
 sgx_trts = { git = "https://github.com/apache/teaclave-sgx-sdk.git" }
 
 [patch.'https://github.com/apache/teaclave-sgx-sdk.git']
-sgx_alloc = { path = "../../../sgx_alloc" }
-sgx_build_helper = { path = "../../../sgx_build_helper" }
-sgx_libc = { path = "../../../sgx_libc" }
-sgx_tprotected_fs = { path = "../../../sgx_tprotected_fs" }
-sgx_trts = { path = "../../../sgx_trts" }
-sgx_tstd = { path = "../../../sgx_tstd" }
-sgx_types = { path = "../../../sgx_types" }
-sgx_unwind = { path = "../../../sgx_unwind" }
+sgx_alloc = { path = "../../../../sgx_alloc" }
+sgx_build_helper = { path = "../../../../sgx_build_helper" }
+sgx_libc = { path = "../../../../sgx_libc" }
+sgx_tprotected_fs = { path = "../../../../sgx_tprotected_fs" }
+sgx_trts = { path = "../../../../sgx_trts" }
+sgx_tstd = { path = "../../../../sgx_tstd" }
+sgx_types = { path = "../../../../sgx_types" }
+sgx_unwind = { path = "../../../../sgx_unwind" }
